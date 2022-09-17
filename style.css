@@ -1,0 +1,209 @@
+/*============= GENERAL RESET ============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* 
+.container {
+ margin: 5%;
+  border: 3px solid red;
+
+} */
+/*============= HEADER ============*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+  padding: 30px 0;
+  color: #fff;
+}
+
+header .logo {
+  margin-left: 50px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+header .logo a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.5;
+}
+header .logo a:hover {
+  color: rgb(71, 201, 201);
+}
+
+header nav {
+  /* border: 3px solid red; */
+  margin-right: 50px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  font-size: 16px;
+}
+
+header nav ul a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+header nav ul a:hover {
+  color: rgb(71, 201, 201);
+}
+
+/* ========== HOME PAGE ============ */
+.container_section {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.container_section img {
+  border-radius: 100%;
+  width: 20%;
+}
+
+.container_text h1 {
+  margin-top: 10px;
+  font-size: 25px;
+  color: teal;
+}
+
+.container_text p {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+/* ========== PAGE INFO ============ */
+.container_section_1 {
+  background-color: teal;
+  color: #fff;
+  display: flex;
+  gap: 10px;
+  padding: 100px;
+}
+
+.container_section_1 .page1 h1 {
+  width: 30%;
+  line-height: 1.5;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.container_section_1 .page1 p {
+  width: 50%;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.container_section_1 .page2 h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  /* border: 3px solid red; */
+}
+.container_section_1 .page2 p {
+  font-weight: bold;
+}
+
+/* ========== SERVICES ============- */
+.container_section_2 {
+  padding: 100px;
+}
+
+.container_section_2 h2 {
+  color: teal;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.services {
+  display: flex;
+  gap: 50px;
+}
+
+.services1 {
+  background-color: teal;
+  padding: 35px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.services1:hover {
+  background-color: rgb(11, 65, 65);
+  transition: 0.3s ease-out;
+}
+.services1 h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.services1 p {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 17px;
+  width: 90%;
+}
+
+/* ========== FOOTER ============ */
+footer {
+  background-color: teal;
+  padding: 80px 0 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+footer .copyright {
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 100px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  margin-bottom: 20px;
+}
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+footer .circle {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+
+footer .circle:hover {
+  border: 1px solid rgb(11, 65, 65);
+  color: rgb(11, 65, 65);
+}
