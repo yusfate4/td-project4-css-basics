@@ -60,6 +60,15 @@ header nav ul a:hover {
   color: rgb(71, 201, 201);
 }
 
+
+/* media query for mobile devices
+@media only screen and (max-width: 600px) {
+  header {
+   display: block;
+   flex-direction: ;
+   border: 3px solid red;
+  }
+} */
 /* ========== HOME PAGE ============ */
 .container_section {
   text-align: center;
@@ -67,7 +76,7 @@ header nav ul a:hover {
 }
 
 .container_section img {
-  border-radius: 100%;
+  border-radius: 2%;
   width: 20%;
 }
 
