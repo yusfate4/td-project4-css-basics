@@ -82,6 +82,24 @@ header nav ul a:hover {
   }
 }
 
+@media only screen and (max-width: 350px) {
+  header {
+   display: flex;
+   flex-wrap: wrap;
+  }
+  header .logo {
+    font-size: 25px;
+  }
+  
+  header nav ul {
+    display: block;
+  }
+
+  header nav ul a {
+    margin-bottom: 0px;
+
+  }
+}
 
 
 /* ========== HOME PAGE ============ */
@@ -156,6 +174,22 @@ header nav ul a:hover {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 350px) {
+  .container_section_1 {
+  flex-wrap: wrap;
+
+  }
+  .container_section_1 .page1 h1 {
+   display: inline-block;
+   width: 100%;
+
+  }
+  .container_section_1 .page1 p {
+    width: 100%;
+  }
+}
+
 /* ========== SERVICES ============- */
 .container_section_2 {
   padding: 100px;
@@ -199,6 +233,29 @@ header nav ul a:hover {
 
 /* media query for mobile devices (SERVICE PAGE) */
 @media only screen and (max-width: 750px) {
+
+  .services {
+    flex-wrap: wrap;
+  }
+  .container_section_2 h2 {
+   /* display: inline-block; */
+   width: 100%;
+   font-size: 25px;
+
+  }
+  .container_section_2 {
+    width: 100%;
+  }
+
+  .services1 p{
+    width: 100%;
+    display: inline-block;
+    font-size: 15px;
+    /* padding: 25px 30px; */
+  }
+}
+
+@media only screen and (max-width: 350px) {
 
   .services {
     flex-wrap: wrap;
